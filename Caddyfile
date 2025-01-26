@@ -1,0 +1,108 @@
+{
+    auto_https off
+}
+
+code0.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab0.sikademo.com:48080
+}
+
+code1.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab1.sikademo.com:48080
+}
+
+code2.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab2.sikademo.com:48080
+}
+
+code3.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab3.sikademo.com:48080
+}
+
+code4.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab4.sikademo.com:48080
+}
+
+code5.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab5.sikademo.com:48080
+}
+
+code6.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab6.sikademo.com:48080
+}
+
+code7.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab7.sikademo.com:48080
+}
+
+code8.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab8.sikademo.com:48080
+}
+
+code9.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab9.sikademo.com:48080
+}
+
+code10.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab10.sikademo.com:48080
+}
+
+code11.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab11.sikademo.com:48080
+}
+
+code12.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab12.sikademo.com:48080
+}
+
+code13.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab13.sikademo.com:48080
+}
+
+code14.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab14.sikademo.com:48080
+}
+
+code15.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab15.sikademo.com:48080
+}
+
+code16.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab16.sikademo.com:48080
+}
+
+code17.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab17.sikademo.com:48080
+}
+
+code18.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab18.sikademo.com:48080
+}
+
+code19.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab19.sikademo.com:48080
+}
+
+code20.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab20.sikademo.com:48080
+}
