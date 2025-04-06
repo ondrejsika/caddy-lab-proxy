@@ -7,6 +7,11 @@ code0.sikademo.com {
     reverse_proxy lab0.sikademo.com:48080
 }
 
+codeprom.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy prom.sikademo.com:48080
+}
+
 code1.sikademo.com {
     tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
     reverse_proxy lab1.sikademo.com:48080
