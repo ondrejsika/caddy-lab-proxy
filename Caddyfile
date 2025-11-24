@@ -2,6 +2,11 @@
     auto_https off
 }
 
+code99.sikademo.com {
+    tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
+    reverse_proxy lab99.sikademo.com:48080
+}
+
 code0.sikademo.com {
     tls /etc/caddy/sikademo.com.crt /etc/caddy/sikademo.com.key
     reverse_proxy lab0.sikademo.com:48080
